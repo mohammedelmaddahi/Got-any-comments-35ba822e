@@ -1,0 +1,22 @@
+input {
+	display: block;
+	border-radius: 99px;
+}
+
+ textarea:focus {
+  background: yellow;
+  color: red;
+}
+textarea {
+	border-color : red;
+	border-style: solid;
+	border-width: 2px;
+}
+
+textarea:focus {
+	border-color : green;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 20px
+}
+
